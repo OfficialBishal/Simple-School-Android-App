@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="fill"
+    android:background="@drawable/bg1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="0.31"
+        android:gravity="center|top"
+        android:text="iNFO"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.31" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/message" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="We welcome you to Ideal English H.S. School and thank you for taking an interest and proposing to admit your ward to the Ideal family."
+            android:textColor="#000000"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="fill_horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="INTRODUCTION"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ideal English H.S. School is a well established school in the heart of Chabahil, away from bustle of city traffic and pollution. Ideal offers a sound education, a positive environment, many stimulating creative extra curricular resources and respectful well trained teachers."
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It is a co-educational Higher Secondary School with boarding facilities. The school enjoys the stability and progress since the establishment in 1982. Its attitude to growing and developing however, remain fresh and open to innovation. It is open to children from all ethnic, religions and cultural background. Ideal has upgraded to Higher Secondary School Section in2003 with Humanities, Management. Education and Science. "
+                android:textSize="14dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="fill_horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="HISTORY"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IDEAL ENGLISH H.S. SCHOOL was established in the year 1982 as an independent Junior School with the vision of making education a well rounded source for children&apos;s growth."
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Since then, the Administration and the board of Governors of the School have dedicated themselves to the enrichment of the School&apos;s program and to broaden its base of resources through the selection of qualified and dedicated teachers with collaboration from several educational and human resource. "
+                android:textSize="14dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="Shaping The Future Of The Nation"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="18dp" />
+
+</LinearLayout>

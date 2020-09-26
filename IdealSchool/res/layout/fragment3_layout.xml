@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Activities"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="School Activities"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18dp" />
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Falgun"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2nd   -   3rd Mid term Result Distribution"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7th   -   Democracy Day"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="14th   -   Inter House News Paper Making C."
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15th   -   Maha Sivaratri"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="28th   -   Inter House Extempore Speech C."
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="18th   -   Gyalpo Lhoshar"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="21st   -   Inter House Mono Act &amp; Ad Scope C."
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="30th   -   Data Sheet &amp; Syaalbus for Final Exam"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Chaitra"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/TextView09"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2nd   -   Holi"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3rd   -   Revision starts for final exam"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView08"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5th   -   Practical Exam of all"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView06"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9th   -   Study Leave"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10th   -   Final Exam Begins"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="21st   -   Final Exam Finishes"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="25th   -   Ram Nawami"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="29th   -   Final Prize &amp; Result Distribution Day"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="New session starts on Baisakh 3rd,2071"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="College Activities"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18dp" />
+
+        <ScrollView
+            android:id="@+id/ScrollView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Falgun"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/TextView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2nd   -   3rd Mid term Result Distribution"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7th   -   Democracy Day"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="14th   -   Inter House News Paper Making C."
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15th   -   Maha Sivaratri"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="28th   -   Inter House Extempore Speech C."
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="18th   -   Gyalpo Lhoshar"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="21st   -   Inter House Mono Act &amp; Ad Scope C."
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="30th   -   Data Sheet &amp; Syaalbus for Final Exam"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Chaitra"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/TextView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2nd   -   Holi"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3rd   -   Revision starts for final exam"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5th   -   Practical Exam of all"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9th   -   Study Leave"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10th   -   Final Exam Begins"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="21st   -   Final Exam Finishes"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="25th   -   Ram Nawami"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="29th   -   Final Prize &amp; Result Distribution Day"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/TextView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="New session starts on Baisakh 3rd,2071"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
